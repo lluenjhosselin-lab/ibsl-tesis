@@ -1,49 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IBSL CONSULTORES SAC</title>
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Poppins',sans-serif;background:#f8fafc;color:#1e293b}
+body{font-family:Arial;margin:0}
+header{background:#2563eb;color:white;text-align:center;padding:40px}
+.banner img{width:100%;max-width:500px;display:block;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;padding:20px}
+.card{background:#f1f5f9;padding:15px;border-radius:10px;text-align:center}
+.card img{width:100%;height:150px;object-fit:cover;border-radius:8px}
+</style>
+</head>
 
-header{background:linear-gradient(135deg,#0f172a,#2563eb);color:white;padding:80px 20px;text-align:center}
-header h1{font-size:2.8rem}
-header p{font-size:1.2rem;margin-top:10px}
+<body>
 
-.btn{display:inline-block;margin-top:20px;padding:14px 30px;background:#22c55e;color:white;border-radius:30px;text-decoration:none;font-weight:600}
-.btn:hover{background:#16a34a}
+<header>
+<h1>IBSL CONSULTORES SAC</h1>
+<p>Asesoría de tesis profesional</p>
+</header>
 
-nav{background:white;display:flex;justify-content:center;gap:30px;padding:15px;box-shadow:0 2px 10px rgba(0,0,0,.08);position:sticky;top:0}
+<section class="banner">
+<img src="banner.jpg">
+</section>
 
-section{max-width:1100px;margin:auto;padding:60px 20px}
-h2{text-align:center;margin-bottom:30px}
+<section class="grid">
+<div class="card">
+<img src="servicio1.jpg">
+<p>Tesis completa</p>
+</div>
 
-.urgency{background:#fee2e2;color:#991b1b;text-align:center;padding:12px;font-weight:600}
+<div class="card">
+<img src="servicio2.jpg">
+<p>Avances</p>
+</div>
 
-/* 🔥 BANNER MEJORADO */
-.banner img{
-  width:100%;
-  max-width:500px;
-  display:block;
-  margin:auto;
-  border-radius:15px;
-}
+<div class="card">
+<img src="servicio3.jpg">
+<p>Corrección APA</p>
+</div>
 
-/* 🔥 GRID */
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:white;padding:20px;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,.05)}
+<div class="card">
+<img src="servicio4.jpg">
+<p>Estadística</p>
+</div>
+</section>
 
-/* 🔥 SOLUCIÓN CLAVE (IMÁGENES IGUALES) */
-.card img{
-  width:100%;
-  height:150px;
-  object-fit:cover;
-  border-radius:10px;
-  margin-bottom:10px;
-}
-
-/* PRECIOS */
-.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.price-card{background:white;padding:25px;border-radius:15px;box-shadow:0 10px 20px rgba(0,0,0,.08);text-align:center}
-.price-card h3{color:#2563eb}
-.price{font-size:1.8rem;margin:15px 0}
-
-/* TESTIMONIOS */
-.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.testimonial{background:white;padding:20px;border-radius:12px}
+</body>
+</html>
